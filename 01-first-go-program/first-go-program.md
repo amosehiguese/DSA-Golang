@@ -8,7 +8,7 @@
 3. Write a program to input principal, time, and rate (P, T, R) from the user and
    find Simple Interest.
 4. Take in two numbers and an operator (+, -, \*, /) and calculate the value.
-   (Use if conditions)
+   (Use switch conditions)
 5. Take 2 numbers as input and print the largest number.
 6. Input currency in rupees and output in USD.
 7. To calculate Fibonacci Series up to n numbers.

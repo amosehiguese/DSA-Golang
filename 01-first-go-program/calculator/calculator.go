@@ -7,9 +7,9 @@ import (
 func main(){
 	var x, y int
 	var op string
-	fmt.Print("Enter first number:")
+	fmt.Print("Enter first number: ")
 	fmt.Scanln(&x)
-	fmt.Print("Enter second number:")
+	fmt.Print("Enter second number: ")
 	fmt.Scanln(&y)
 	fmt.Print("Enter operator (+, -, /, *):")
 	fmt.Scanln(&op)
