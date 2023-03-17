@@ -9,17 +9,14 @@ import (
 
 
 
-type Circle struct {
-	Radius float64
+type circle struct {
+	radius float64
 }
 
-func (c *Circle) Area() {
-	Area := math.Pi * math.Pow(c.Radius, 2)
-	fmt.Printf("Area of the Circle is:%.2f\n", Area)
+func (c *circle) Area() {
+	area := math.Pi * math.Pow(c.radius, 2)
+	fmt.Printf("Area of the Circle is:%.2f\n", area)
 }
 
-func main() {
-	c := Circle{9}
-	c.Area()
-}
+
 
