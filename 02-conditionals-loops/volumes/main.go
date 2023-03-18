@@ -7,7 +7,7 @@ import (
 var pl = fmt.Println
 
 func main(){
-	s := Sphere{5}
-	s.Volume()
-	pl(s)
+	p := Pyramid{5,8}
+	p.Volume()
+	pl(p)
 }
