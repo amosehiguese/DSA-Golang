@@ -7,6 +7,6 @@ import (
 var Pl = fmt.Println
 
 func main(){
-	t := Circle{5}
-	t.Area()
+	e := EquiTriangle{5}
+	e.Perimeter()
 }

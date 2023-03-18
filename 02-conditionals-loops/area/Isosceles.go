@@ -10,8 +10,8 @@ type Isosceles struct {
 	base,height float64
 }
 
-func (t *Triangle) Area() {
-	area := 0.5 * t.base * t.height
+func (i *Isosceles) Area() {
+	area := 0.5 * i.base *i.height
 	fmt.Printf("Area of the Isosceles is: %.2f\n", area)
 }
 
