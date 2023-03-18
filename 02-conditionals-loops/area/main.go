@@ -4,9 +4,10 @@ import (
 	"fmt"
 )
 
-var Pl = fmt.Println
+var pl = fmt.Println
 
 func main(){
 	c := Cube{10}
 	c.SurfaceArea()
+	pl(c)
 }
