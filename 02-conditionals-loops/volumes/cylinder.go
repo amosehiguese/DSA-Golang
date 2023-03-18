@@ -13,6 +13,6 @@ type Cylinder struct {
 
 func (c *Cylinder) Volume() {
 	volume := math.Pi * math.Pow(c.radius,2) * c.height
-	fmt.Printf("Area of the Cylinder is: %.2f\n", volume)
+	fmt.Printf("Volume of the Cylinder is: %.2f\n", volume)
 }
 
