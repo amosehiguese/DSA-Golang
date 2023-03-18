@@ -12,6 +12,6 @@ type Prism struct {
 
 func (p *Prism) Volume() {
 	volume := p.base * p.height
-	fmt.Printf("Area of the Prism is: %.2f\n", volume)
+	fmt.Printf("Volume of the Prism is: %.2f\n", volume)
 }
 

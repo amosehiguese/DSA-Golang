@@ -13,6 +13,6 @@ type Cone struct {
 
 func (c *Cone) Volume() {
 	volume := 0.33 * math.Pi * math.Pow(c.radius,2) * c.height
-	fmt.Printf("Area of the Cone is: %.2f\n", volume)
+	fmt.Printf("Volume of the Cone is: %.2f\n", volume)
 }
 
