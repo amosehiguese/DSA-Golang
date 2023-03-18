@@ -12,6 +12,6 @@ type Rhombus struct {
 
 func (s *Rhombus) Perimeter() {
 	perimeter := 4 * s.sides
-	fmt.Printf("Area of the Rhombus is: %.2f\n", perimeter)
+	fmt.Printf("Perimeter of the Rhombus is: %.2f\n", perimeter)
 }
 

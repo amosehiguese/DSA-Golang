@@ -12,5 +12,5 @@ type Rectangle struct {
 
 func (r *Rectangle) Perimeter() {
 	perimeter := 2 * (r.length + r.width)
-	fmt.Printf("Area of the Rectangle is: %.2f\n", perimeter)
+	fmt.Printf("Perimeter of the Rectangle is: %.2f\n", perimeter)
 }

@@ -12,6 +12,6 @@ type Square struct {
 
 func (s *Square) Perimeter() {
 	perimeter := 4 * s.sides
-	fmt.Printf("Area of the Square is: %.2f\n", perimeter)
+	fmt.Printf("Perimeter of the Square is: %.2f\n", perimeter)
 }
 

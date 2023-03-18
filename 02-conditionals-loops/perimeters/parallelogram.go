@@ -12,6 +12,6 @@ type Parallelogram struct {
 
 func (p *Parallelogram) Perimeter() {
 	perimeter := 2 * (p.a + p.b)
-	fmt.Printf("Area of the Parallelogram is: %.2f\n", perimeter)
+	fmt.Printf("Perimeter of the Parallelogram is: %.2f\n", perimeter)
 }
 
