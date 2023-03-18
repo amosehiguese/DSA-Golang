@@ -7,6 +7,6 @@ import (
 var Pl = fmt.Println
 
 func main(){
-	i := Isosceles{5, 10}
-	i.Area()
+	c := CurvedAreaCylinder{10,5}
+	c.CurvedArea()
 }
