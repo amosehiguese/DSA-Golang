@@ -7,7 +7,7 @@ import (
 var pl = fmt.Println
 
 func main(){
-	p := Prism{10,5}
+	p := Cylinder{8,5}
 	p.Volume()
 	pl(p)
 }
