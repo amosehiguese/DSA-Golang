@@ -7,6 +7,6 @@ import (
 var Pl = fmt.Println
 
 func main(){
-	c := CurvedAreaCylinder{10,5}
-	c.CurvedArea()
+	c := Cube{10}
+	c.SurfaceArea()
 }
